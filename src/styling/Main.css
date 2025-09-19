@@ -2,10 +2,11 @@
     border-radius: 50%;
     scale: 1.60;
     margin-bottom: 2.25rem;
+    margin-top: 4.0rem;
     filter:     
     drop-shadow(0 0 8px #ffd890)
-    drop-shadow(0 0 16px rgb(255, 153, 0))
-    drop-shadow(0 0 32px rgb(255, 179, 15));
+    drop-shadow(0 0 12px rgb(255, 153, 0))
+    drop-shadow(0 0 20px rgb(255, 179, 15));
 }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
 }
 
 .card {
-    width: 80%;
+    width: auto;
     height: 20%;
     margin: 0 auto;
     display: flex;
@@ -45,7 +46,7 @@ p {
 }
 
 .appCard {
-    width: 50%;
+    width: 100%;
     justify-content: center;
     margin: 0 auto;
 }
