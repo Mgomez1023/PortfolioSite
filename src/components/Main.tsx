@@ -1,4 +1,3 @@
-import profilePic from '../assets/image2.jpeg' 
 import trackerLogo from '../assets/192x192.png'
 import eatThisLogo from "../assets/icon-192x192.png"
 import { useEffect } from 'react'
