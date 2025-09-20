@@ -19,15 +19,9 @@ export default function Main() {
 
   return (
     <>
-      <div className="slide-down">
-        <a target="_blank">
-          <img src={profilePic} className="logo" alt="Vite logo" />
-        </a>
-      </div>
-      <h1 className="slide-down">Martin Gomez</h1>
+
       <div className="card slide-down">
         <div className="appCard">
-
           <button>
             <img src={eatThisLogo} className="appIcon" onClick={() => window.open("https://eat-this-app-mgomez1023s-projects.vercel.app", "_blank")} />
           </button>
@@ -43,7 +37,6 @@ export default function Main() {
       </div>
 
     </>
-
 
   );
 }

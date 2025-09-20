@@ -1,20 +1,20 @@
 :root {
 
   /*DEFAULT THEME*/
-  --bg-dark: hsl(0, 0%, 90%);
-  --bg: hsl(0 0% 95%);
-  --bg-light: hsl(0, 0%, 100%);
-  --text: hsl(0 0% 5%);
-  --text-muted: hsl(0 0% 30%);
-  
+  /*Dark Theme */
+  --bg-dark: hsl(0 0% 0%);
+  --bg: hsl(0 0% 5%);
+  --bg-light: hsl(0 0% 10%);
+  --text: hsl(0 0% 95%);
+  --text-muted: hsl(0 0% 40%);
+  --orange: hsl(39 100% 50%);
   --border: hsl(0 0% 30%);
+  --border-card: solid 1px var(--border);
   --gradient: linear-gradient(0deg, var(--bg), var(--bg-light));
-  --highlight: hsl(0 0% 100%);
-  --border-card: solid 1px var(--bg);
-  --shadow: 0px 3px 3px hsla(0, 0%, 0%, 0.1), 0px 6px 6px hsla(0, 0%, 0%, 0.40);
+  --highlight: hsl(0 0% 60%);
+  --shadow: 0px 2px 2px hsla(0, 0%, 0%, 0.07), 0px 4px 4px hsla(0, 0%, 0%, 0,15);
 
-
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -40,7 +40,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }

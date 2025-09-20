@@ -1,0 +1,32 @@
+.header {
+    background-color: var(--bg-light);
+    height: 15%;
+    width: 85%;
+    max-width: 1020px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 10%;
+    font-size: calc(10px + 2vmin);
+    color: var(--text);
+    padding: 1rem;
+    border: var(--border-card);
+    background: var(--gradient);
+    box-shadow: var(--shadow);
+    background-color: var(--bg);
+}
+
+h1 {
+    font-size: 150%;
+    width: 33%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto 0;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+}
