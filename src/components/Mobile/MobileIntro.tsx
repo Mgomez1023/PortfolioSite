@@ -1,7 +1,7 @@
-import "../styling/Intro.css"
-import ProfilePic from '../assets/image2.jpeg'
+import "../../styling/MobileIntro.css"
+import ProfilePic from '../../assets/image2.jpeg'
 
-export default function Intro() {
+export default function MobileIntro() {
     return (
         <>
             <div className="card">
@@ -9,12 +9,10 @@ export default function Intro() {
                     <img src={ProfilePic} alt="Profile" className="profilePic" />
                 </div>
                 <div className="column">
+                    
                     <p className="title">React developer studying Computer Science 
                         at the University of Illinois - Chicago
                     </p>
-                    
-                    <button className="details">Details</button>
-
 
                 </div>
             </div>
@@ -22,4 +20,4 @@ export default function Intro() {
     );
 }
 
-export { Intro }
+export { MobileIntro }

@@ -49,10 +49,11 @@
   padding: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: var(--bglight);
+  background: var(--bg-light);
   position: relative;
   gap: 10px;
   width: 80%;
+
 }
 
 .radioItem:hover {
