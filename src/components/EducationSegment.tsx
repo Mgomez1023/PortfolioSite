@@ -13,7 +13,6 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
     {
-
         id: "loaner-vehicle-system",
         title: "Loaner Vehicle System",
         image: university,

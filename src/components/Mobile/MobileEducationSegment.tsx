@@ -6,25 +6,31 @@ import university from '../../assets/university.png'
 
 
 export default function MobileEducationSegment () {
-    const menuItems = [
-      {
-        id: "university",
-        title: "University",
-        image: university,
-        description: "I currently attend University of Illinois - Chicago. I expect to graduate May 2027.",
-      },
-      {
-        id: "community-college",
-        title: "Community College",
-        image: comCollege,
-        description: "I got my Associate’s in Applied Science from Moraine Valley Community College in 2024.",
-      },
-      {
-        id: "highschool",
-        title: "High School",
-        image: highSchool,
-        description: "I graduated from Argo High School in 2021.",
-      },
+
+    interface MenuItem {
+        id: string;
+        title: string;
+        image: string;
+        description: string;
+    }
+
+    const menuItems: MenuItem[] = [
+        {
+            id: "loaner-vehicle-system",
+            title: "Loaner Vehicle System",
+            image: university,
+            description: "WordPress form that was used to manage loaner vehicles at an auto repair shop"
+        }, {
+            id: "EatThis",
+            title: "EatThis",
+            image: comCollege,
+            description: "A restaurant recommendation app that uses Google Maps API to suggest nearby dining options"
+        }, {
+            id: "Baseball Stats Tracker",
+            title: "Baseball Stats Tracker",
+            image: highSchool,
+            description: "A tool to track and analyze baseball statistics for local players and teams"
+        }
     ];
     const [openItem, setOpenItem] = useState<string | null>(null);
 
@@ -34,7 +40,7 @@ export default function MobileEducationSegment () {
 
     return (
         <>
-            <h1>Education</h1>
+            <h1>Projects</h1>
             <div className="mobile-menu">
                 {menuItems.map((item) => (
                     <div key={item.id} className="mobile-item">
@@ -47,7 +53,7 @@ export default function MobileEducationSegment () {
                             }`}
                         >
                             <img src={item.image} alt={item.title} />
-                            <p>{item.description}</p>
+                            <p className="caption">{item.description}</p>
                         </div>
                     </div>
                 ))}
