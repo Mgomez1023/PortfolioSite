@@ -18,7 +18,7 @@ export default function Main() {
 
   return (
     <>
-
+      <h1>Demos</h1>
       <div className="card slide-down">
         <div className="appCard">
           <button>

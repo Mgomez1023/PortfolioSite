@@ -14,20 +14,20 @@ interface MenuItem {
 const menuItems: MenuItem[] = [
     {
 
-        id: "university",
-        title: "University",
+        id: "loaner-vehicle-system",
+        title: "Loaner Vehicle System",
         image: university,
-        description: "I currently attend University of Illiois - Chicago. I expect to graduate May 2027."
+        description: "WordPress form that was used to manage loaner vehicles at an auto repair shop"
     }, {
-        id: "community-college",
-        title: "Community College",
+        id: "EatThis",
+        title: "EatThis",
         image: comCollege,
-        description: "I got my Associates in Applied Science from Moraine Valley Community College in 2024"
+        description: "A restaurant recommendation app that uses Google Maps API to suggest nearby dining options"
     }, {
-        id: "highschool",
-        title: "High School",
+        id: "Baseball Stats Tracker",
+        title: "Baseball Stats Tracker",
         image: highSchool,
-        description: "I graduated from Argo High School in 2021"
+        description: "A tool to track and analyze baseball statistics for local players and teams"
     }
 ];
 
@@ -37,8 +37,8 @@ export default function EducationSegment () {
 
     return (
         <>
+            <h1>Projects</h1>
             <div className="eduCard">
-                <h1 className="educationTitle">Education</h1>
                 <div className="columns">
                     <form className="detailsColumn">
                         {menuItems.map(item => (

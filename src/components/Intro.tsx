@@ -13,8 +13,6 @@ export default function Intro() {
                         at the University of Illinois - Chicago
                     </p>
                     
-                    <button className="details">Details</button>
-
 
                 </div>
             </div>

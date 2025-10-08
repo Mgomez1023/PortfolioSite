@@ -34,6 +34,7 @@ export default function MobileEducationSegment () {
 
     return (
         <>
+            <h1>Education</h1>
             <div className="mobile-menu">
                 {menuItems.map((item) => (
                     <div key={item.id} className="mobile-item">

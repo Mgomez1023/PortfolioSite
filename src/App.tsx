@@ -4,7 +4,6 @@ import { useIsMobile } from './utils/useIsMobile.ts'
 import  Spacer  from './components/Spacer.tsx'
 import Intro from './components/Intro.tsx'
 import EducationSegment from './components/EducationSegment.tsx'
-
 import MobileEducationSegment from './components/Mobile/MobileEducationSegment.tsx'
 import MobileIntro from './components/Mobile/MobileIntro.tsx'
 import './App.css'
