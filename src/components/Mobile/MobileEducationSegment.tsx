@@ -26,9 +26,9 @@ export default function MobileEducationSegment () {
         description: "I graduated from Argo High School in 2021.",
       },
     ];
-    const [openItem, setOpenItem] = useState(null);
+    const [openItem, setOpenItem] = useState<string | null>(null);
 
-    const toggleItem = (id) => {
+    const toggleItem = (id: string) => {
         setOpenItem(openItem === id ? null : id);
     }
 
