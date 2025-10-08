@@ -21,8 +21,8 @@ function App() {
       {isMobile ? <MobileEducationSegment /> : <EducationSegment />}
         <Spacer />
       <Main />
-
     </>
+
   )
 }
 
