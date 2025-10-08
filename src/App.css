@@ -9,6 +9,8 @@
   box-shadow: var(--shadow);
   background-color: var(--bg);
   justify-content: center;
+  color: var(--text);
+
 
 }
 
