@@ -7,10 +7,6 @@
     display: flex;
     flex-direction: column;
     gap: 10%;
-    border: var(--border-card);
-    background: var(--gradient);
-    box-shadow: var(--shadow);
-    background-color: var(--bg);
 }
 
 .columns {
@@ -44,12 +40,12 @@
 .radioItem {
   display: flex;
   align-items: center;
-  border: 2px solid var(--text);
+  border: 1px solid var(--text-muted);
   border-radius: 8px;
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: var(--bg-light);
+  background: var(--navy-blue);
   position: relative;
   gap: 10px;
   width: 80%;
@@ -71,7 +67,7 @@
 .customRadio {
   width: 18px;
   height: 18px;
-  border: 2px solid var(--orange);
+  border: 2px solid var(--light-blue);
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -87,7 +83,7 @@
   left: 50%;
   width: 10px;
   height: 10px;
-  background: var(--orange);
+  background: var(--light-blue);
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0);
   transition: transform 0.2s ease;
@@ -101,15 +97,5 @@
 /* Text next to the custom radio */
 .radioText {
   font-size: 1rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500;
-}
-
-h1 {
-  font-size: 2.25rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 500;
-  margin: 2rem auto;
-  color: var(--text);
-
 }

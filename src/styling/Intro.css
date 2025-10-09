@@ -5,18 +5,16 @@
     padding: 0 auto;
     display: flex;
     flex-direction: row;
-    gap: 10%;
-    border: var(--border-card);
-    background: var(--gradient);
+    border: 2px solid var(text-muted);
+    background: none;
     box-shadow: var(--shadow);
-    background-color: var(--bg);
 }
 
-.title {
-    align-content: center;
+.aboutCaption {
     font-size: 1rem;
+    text-align: left;
     height: 55%;
-    margin: 2rem 0 0 0;
+    margin-top: 1rem;
     color: var(--text);
 }
 
@@ -27,17 +25,23 @@
     width: 70%;
     height: 20%;
     margin: 1rem auto;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.aboutTitle {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .column1 {
     align-content: center;
-    width: 60%;
+    width: 30%;
 }
-.column {
-    max-width: 500px;
-    width: 60%;
-    justify-content: center;
+.aboutColumn {
+    width: 70%;
+    margin-left: 30px;
 }
 
 .profilePic {
@@ -49,7 +53,27 @@
     height: 60vw;
     max-height: 150px;
     filter:     
-    drop-shadow(0 0 8px #ffd890)
-    drop-shadow(0 0 12px rgb(255, 153, 0))
-    drop-shadow(0 0 20px rgb(255, 179, 15));
+    drop-shadow(0 0 8px #176dce)
+    drop-shadow(0 0 12px rgb(18, 128, 192))
+    drop-shadow(0 0 20px rgb(22, 150, 224));
+}
+
+.label-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.label {
+    background-color: rgb(4, 33, 49);
+    text-align: center;
+    border-radius: 25px;
+    height: 50px;
+    width: 30%;
+    font-size: 16px;
+    align-content: center;
+    border: 1px solid var(--border);
 }

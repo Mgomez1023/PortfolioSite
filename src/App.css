@@ -1,17 +1,14 @@
 #root {
   background-color: var(--bg);
-  width: 100%;
+  width: 90%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
-  border: var(--border-card);
-  background: var(--gradient);
   box-shadow: var(--shadow);
-  background-color: var(--bg);
   justify-content: center;
   color: var(--text);
-
-
+  font-family: "Poppins", sans-serif;
+  background: none;
 }
 
 .logo {

@@ -1,0 +1,71 @@
+.cardHero {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: none;
+    justify-content: center;
+
+}
+.name {
+    font-size: 2.5rem;
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    padding: 0;
+    align-content: center;
+    font-size: 1rem;
+    color: var(--text);
+}
+
+.mobilebutton {
+    border-radius: 0px;
+    background: none;
+    width: 30%;
+    height: 15%;
+    margin: 2rem;
+    padding: 8px;
+    border-radius: 6px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.project {
+    background-color: var(--light-blue);
+}
+
+.details {
+    border: 1px solid var(--border);
+    border-radius: 0px;
+    background: var(--gradient);
+    width: 70%;
+    height: 20%;
+    margin: 1rem auto;
+}
+
+.column1 {
+    align-content: center;
+    width: 60%;
+}
+.column {
+    width: 100%;
+    justify-content: center;
+    margin:  0 auto;
+    max-height: 300px;
+}
+
+.columns2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 650px;
+    max-height: 100px;
+    margin: 0 auto;
+    gap: .15rem;
+    justify-content: center;
+}
