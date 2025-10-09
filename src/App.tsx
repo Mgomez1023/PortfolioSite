@@ -1,5 +1,4 @@
 import { Main } from './components/Main.tsx'
-import { Header } from './components/Header.tsx'
 import { Hero } from './components/Hero.tsx'
 import { useIsMobile } from './utils/useIsMobile.ts'
 import  Spacer  from './components/Spacer.tsx'
