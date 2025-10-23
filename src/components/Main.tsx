@@ -29,7 +29,7 @@ export default function Main() {
         </div>
         <div className="appCard">
           <button>
-            <img src={trackerLogo} className="appIcon" onClick={() => window.open("https://baseball-stat-tracker-mgomez1023s-projects.vercel.app", "_blank")} />
+            <img src={trackerLogo} className="appIcon" onClick={() => window.open("https://baseball-stat-tracker-nine.vercel.app/", "_blank")} />
           </button>       
           <p>StatTracker</p>
         </div>
