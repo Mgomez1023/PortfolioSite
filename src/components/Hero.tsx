@@ -1,6 +1,11 @@
 import "../styling/Hero.css"
 
-export default function Hero() {
+interface HeroProps {
+    onScrollClick: () => void;
+}
+
+export default function Hero({onScrollClick}: HeroProps) {
+    
     return (
         <>
             <div className="cardHero">
@@ -13,9 +18,9 @@ export default function Hero() {
                 </div>
 
                 <div className="columns2">
-                    <button className="button project is-link is-outlined is-rounded" onClick={() => {
-                        window.location.href = "mailto:martingomez@example.com";
-                    }}>
+                    <button className="button project is-link is-outlined is-rounded" 
+                        onClick={onScrollClick}
+                    >
                         View Projects
                     </button>
                     <button className="button is-link is-outlined is-rounded" onClick={() => {

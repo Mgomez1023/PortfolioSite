@@ -1,11 +1,11 @@
 import "../../styling/MobileEducationSegment.css"
-import { useState } from 'react'
-import comCollege from '../../assets/comCollege.png'
-import highSchool from '../../assets/highschool.png'
-import university from '../../assets/university.png'
+import { useState, forwardRef } from 'react'
+import comCollege from '../../assets/EatThisQuestion.jpg'
+import highSchool from '../../assets/StatTrackerHomePage.jpg'
+import university from '../../assets/LoanerVehicleHome.jpg'
 
 
-export default function MobileEducationSegment () {
+const MobileEducationSegment = forwardRef<HTMLDivElement>((_, ref) => {
 
     interface MenuItem {
         id: string;
@@ -40,27 +40,29 @@ export default function MobileEducationSegment () {
 
     return (
         <>
-            <h1>Projects</h1>
-            <div className="mobile-menu">
-                {menuItems.map((item) => (
-                    <div key={item.id} className="mobile-item">
-                        <button onClick={() => toggleItem(item.id)} className="menu-button">
-                            {item.title}
-                        </button>
-                        <div
-                            className={`dropdown-content ${
-                            openItem === item.id ? "open" : ""
-                            }`}
-                        >
-                            <img src={item.image} alt={item.title} />
-                            <p className="caption">{item.description}</p>
+            <div ref={ref}>
+                <h1>Projects</h1>
+                <div className="mobile-menu">
+                    {menuItems.map((item) => (
+                        <div key={item.id} className="mobile-item">
+                            <button onClick={() => toggleItem(item.id)} className="menu-button">
+                                {item.title}
+                            </button>
+                            <div
+                                className={`dropdown-content ${
+                                openItem === item.id ? "open" : ""
+                                }`}
+                            >
+                                <img src={item.image} alt={item.title} />
+                                <p className="caption">{item.description}</p>
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </>
     )
-    
-}
 
-export { MobileEducationSegment }
+})
+
+export default MobileEducationSegment;
